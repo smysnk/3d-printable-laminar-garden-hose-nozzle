@@ -1,0 +1,11 @@
+[
+  {
+    "type": "Slider",
+    "name": "size",
+    "description": "abc ee",
+    "range": "1,10",
+    "options": "",
+    "defaultValue": "7",
+    "editMode": false
+  }
+]
