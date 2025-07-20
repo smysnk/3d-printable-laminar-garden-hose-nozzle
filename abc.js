@@ -1,11 +1,7 @@
 
 function abc() {
-  
-  console.log('defss');
-  
-  throw new Error();
-  
-  
+  console.log('def');
 }
 
-module.exports = { abc };
+
+module.export = { abc };

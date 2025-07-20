@@ -1,17 +1,7 @@
-import abc from './abc.js';
-import def from './def.js';
-import a from './test.scad';
+const { cube } = JSCAD.modeling.primitives;
 
-function main() {
-    
-  console.log(abc);
-  console.log(def);
-  
-  
-  console.log(123);
-  console.log(abc);
-  
-  
+function main({ variables: { size } }) {
+  return cube({ size });
 }
 
 module.exports = { main };
